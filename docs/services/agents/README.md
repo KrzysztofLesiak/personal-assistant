@@ -98,7 +98,7 @@ You can run the OpenAI-compatible vLLM server that serves the local Phi-3 model 
 
   - With GPU (GGUF model):
     ```bash
-    docker run --rm -p 8000:8000 --gpus all -v "C:\Users\krzys\.cache\huggingface\hub\models--dphn--Dolphin3.0-Llama3.1-8B-GGUF\snapshots\be0be5e42b14c7b0052705d146a79a9e9ee8e6eb":/models pa-agents-vllm --model /models/Dolphin3.0-Llama3.1-8B-Q5_0.gguf --gpu-memory-utilization 0.85 --host 0.0.0.0 --port 8000 --max_num_batched_tokens 512 --max_num_seqs 1 --max_model_len 1024
+    docker run --rm -p 8000:8000 --gpus all -v "C:\Users\krzys\.cache\huggingface\hub\models--dphn--Dolphin3.0-Llama3.1-8B-GGUF\snapshots\be0be5e42b14c7b0052705d146a79a9e9ee8e6eb":/models pa-agents-vllm --model /models/Dolphin3.0-Llama3.1-8B-Q5_0.gguf --gpu-memory-utilization 0.85 --host 0.0.0.0 --port 8000 --max_num_batched_tokens 1024 --max_num_seqs 1 --max_model_len 10240
     ```
 
 - Test the API:
