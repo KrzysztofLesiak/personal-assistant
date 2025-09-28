@@ -119,3 +119,10 @@ Notes
 - The default CMD in the image points to `/models/phi-3-mini-128k-instruct`. If you mount a different path or model name, override `--model` accordingly.
 - If the server fails to start due to GPU memory, try `--gpu-memory-utilization 0.5` or lower, or run without `--gpus` for CPU.
 - API is OpenAI-compatible; supports standard endpoints like `/v1/models` and `/v1/chat/completions`.
+
+```bash
+curl -X POST "http://localhost:8181/v1/chat" \
+ -H "Content-Type: application/json" \
+ -d '{"messages": [{"role": "user", "content": "Hello, how are you?"}], "stream": true}' \
+ --no-buffer
+```

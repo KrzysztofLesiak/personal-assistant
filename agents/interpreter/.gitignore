@@ -1,0 +1,10 @@
+# Python files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.pdm
+*.pdm.toml
+*.env
+*.venv
