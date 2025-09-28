@@ -1,6 +1,6 @@
-## Agent Manager Service
+## Manager Service
 
-Agent Manager to orchestrate AI agents, handling task scheduling, resource allocation, and inter-agent communication. The Manager ensures efficient use of GPU resources and manages agent lifecycles.
+Manager Service to orchestrate AI agents, handling task scheduling, resource allocation, and inter-agent communication. The Manager ensures efficient use of GPU resources and manages agent lifecycles.
 
 ### Key Features
 

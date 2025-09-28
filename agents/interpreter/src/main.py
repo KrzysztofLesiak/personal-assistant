@@ -4,16 +4,15 @@ import logging
 from api import router as api_router
 from logging_config import setup_colored_logging, get_logger
 
+setup_colored_logging(level=logging.INFO)
+logger = get_logger(__name__)
+
 # Initialize FastAPI app
 app = FastAPI(
     title="Personal Assistant API",
     description="API for the personal assistant interpreter agent",
     version="1.0.0"
 )
-
-# Setup colored logging (set use_colorlog=True if you have colorlog installed)
-setup_colored_logging(level=logging.INFO)
-logger = get_logger(__name__)
 
 # Include the API router
 app.include_router(api_router)
