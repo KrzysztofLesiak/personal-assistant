@@ -1,3 +1,4 @@
+from time import sleep
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import StreamingResponse
 import logging
@@ -64,6 +65,7 @@ def health_check():
     """
     Health check endpoint
     """
+    sleep(11)
     return {"status": "healthy", "model": agent.model.id}
 
 # You can add more routes here

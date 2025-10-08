@@ -19,13 +19,14 @@ func NewHandler() *HTTPHandler {
 }
 
 // Define HTTPHandlerFunc as a non-generic type or use interface{} if needed
-func (h *HTTPHandler) addRoute(pattern string, method string, handler HTTPHandlerFunc) {
+func (h *HTTPHandler) addRoute(pattern string, method []string, handler HTTPHandlerFunc) {
 	http.Handle(pattern, h.corsMiddleware(httpMiddleware(handler, method)))
 }
 
 func (h *HTTPHandler) RegisterRoutes() {
-	h.addRoute("/v1/health", "GET", handleHealth)
-	h.addRoute("/v1/chat", "POST", handleChat)
+	h.addRoute("/v1/health", []string{"GET"}, handleHealth)
+	h.addRoute("/v1/tasks", []string{"GET"}, handleTasks)
+	h.addRoute("/v1/tasks/{id}", []string{"GET", "POST", "PUT", "DELETE"}, handleTask)
 }
 
 func (h *HTTPHandler) StartServer() error {
