@@ -139,7 +139,10 @@
         },
         "runtime": {
           "bin/placeholder/TaskService.Infrastructure.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
