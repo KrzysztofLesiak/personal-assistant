@@ -1,0 +1,12 @@
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.Core\bin\Debug\net9.0\TaskService.Core.deps.json
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.Core\bin\Debug\net9.0\TaskService.Core.dll
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.Core\bin\Debug\net9.0\TaskService.Core.pdb
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.Core\obj\Debug\net9.0\TaskService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.Core\obj\Debug\net9.0\TaskService.Core.AssemblyInfoInputs.cache
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.Core\obj\Debug\net9.0\TaskService.Core.AssemblyInfo.cs
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.Core\obj\Debug\net9.0\TaskService.Core.csproj.CoreCompileInputs.cache
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.Core\obj\Debug\net9.0\TaskService.Core.sourcelink.json
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.Core\obj\Debug\net9.0\TaskService.Core.dll
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.Core\obj\Debug\net9.0\refint\TaskService.Core.dll
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.Core\obj\Debug\net9.0\TaskService.Core.pdb
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.Core\obj\Debug\net9.0\ref\TaskService.Core.dll

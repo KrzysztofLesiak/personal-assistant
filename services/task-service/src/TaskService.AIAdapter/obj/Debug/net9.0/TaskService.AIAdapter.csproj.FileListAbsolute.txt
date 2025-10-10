@@ -1,0 +1,12 @@
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.AIAdapter\bin\Debug\net9.0\TaskService.AIAdapter.deps.json
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.AIAdapter\bin\Debug\net9.0\TaskService.AIAdapter.dll
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.AIAdapter\bin\Debug\net9.0\TaskService.AIAdapter.pdb
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.AIAdapter\obj\Debug\net9.0\TaskService.AIAdapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.AIAdapter\obj\Debug\net9.0\TaskService.AIAdapter.AssemblyInfoInputs.cache
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.AIAdapter\obj\Debug\net9.0\TaskService.AIAdapter.AssemblyInfo.cs
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.AIAdapter\obj\Debug\net9.0\TaskService.AIAdapter.csproj.CoreCompileInputs.cache
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.AIAdapter\obj\Debug\net9.0\TaskService.AIAdapter.sourcelink.json
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.AIAdapter\obj\Debug\net9.0\TaskService.AIAdapter.dll
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.AIAdapter\obj\Debug\net9.0\refint\TaskService.AIAdapter.dll
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.AIAdapter\obj\Debug\net9.0\TaskService.AIAdapter.pdb
+C:\dev\personal-assistant\services\tasks-service\src\TaskService.AIAdapter\obj\Debug\net9.0\ref\TaskService.AIAdapter.dll
