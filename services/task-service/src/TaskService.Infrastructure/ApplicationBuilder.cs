@@ -10,12 +10,10 @@ public static class ApplicationBuilder
     {
         var builder = WebApplication.CreateBuilder();
 
+        // Register only foundational services here; keep API-specific middleware in the API project
         builder.Services.AddControllers();
 
-        builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
-
-        return;
+        return builder.Build();
     }
 
 }

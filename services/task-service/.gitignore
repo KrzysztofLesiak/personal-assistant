@@ -1,0 +1,90 @@
+# .NET / Visual Studio
+
+# Build results
+[Bb]in/
+[Oo]bj/
+out/
+artifacts/
+[Aa]rtifacts/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code (keep common shared files)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains Rider / ReSharper
+.idea/
+*.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+!packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+# Logs and diagnostics
+*.log
+logs/
+
+# Test results / Coverage
+[Tt]est[Rr]esult*/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage.*.xml
+coverage.opencover.xml
+.opencover.xml
+lcov.info
+
+# nCrunch
+*.ncrunchsolution
+*.ncrunchproject
+_ncrunch*/
+.nCrunchTemp*
+
+# Azure
+local.settings.json
+*.publishsettings
+*.pubxml
+*.pubxml.user
+
+# Entity Framework / SQL Server
+*.mdf
+*.ldf
+*.ndf
+*.dbmdl
+
+# Sonar
+.sonar/
+.scannerwork/
+
+# StyleCop / Reports
+StyleCopReport.xml
+Generated_Reports/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$tf/
+*.Cache
